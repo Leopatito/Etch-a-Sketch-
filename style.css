@@ -1,0 +1,15 @@
+.big-square {
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    display: grid;
+    
+}
+.big-square > div {  
+    display: flex;
+}
+.big-square > div > div {
+    
+    flex: 1 1 0;
+}
+
